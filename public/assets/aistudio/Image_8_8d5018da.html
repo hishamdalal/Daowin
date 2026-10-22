@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fbf8ff;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-variant": "#e4e1ea", "secondary-container": "#6f5fea", "tertiary-fixed-dim": "#4bddb7", "secondary-fixed-dim": "#c6bfff", "surface-container-lowest": "#ffffff", "surface-tint": "#6c45c0", "surface-bright": "#fbf8ff", "on-tertiary": "#ffffff", "surface-container": "#efecf5", "primary-fixed-dim": "#d1bcff", "on-secondary-fixed": "#160066", "inverse-primary": "#d1bcff", "background": "#fbf8ff", "surface": "#fbf8ff", "inverse-surface": "#303036", "primary-fixed": "#eaddff", "on-primary-container": "#ceb8ff", "surface-dim": "#dbd9e1", "on-secondary-container": "#fffbff", "on-tertiary-fixed-variant": "#005140", "outline": "#7b7484", "on-tertiary-container": "#47dab4", "secondary-fixed": "#e4dfff", "on-secondary": "#ffffff", "on-primary": "#ffffff", "tertiary-container": "#005c49", "on-background": "#1b1b21", "on-secondary-fixed-variant": "#4029ba", "on-surface-variant": "#494453", "on-primary-fixed": "#24005b", "tertiary-fixed": "#6dfad2", "secondary": "#5644d0", "tertiary": "#004234", "on-primary-fixed-variant": "#5429a7", "outline-variant": "#cbc3d5", "on-tertiary-fixed": "#002018", "surface-container-highest": "#e4e1ea", "on-surface": "#1b1b21", "error-container": "#ffdad6", "on-error": "#ffffff", "on-error-container": "#93000a", "inverse-on-surface": "#f2eff8", "surface-container-high": "#eae7ef", "primary": "#461599", "primary-container": "#5e35b1", "surface-container-low": "#f5f2fb", "error": "#ba1a1a" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-desktop": "1.5rem", "gutter": "1rem", "space-md": "1rem", "space-xl": "2.25rem", "margin-desktop": "2.5rem", "margin": "1rem", "margin-tablet": "1.5rem", "space-xs": "0.25rem", "gutter-tablet": "1.25rem", "space-sm": "0.5rem" }, fontFamily: { "display-lg": ["Plus Jakarta Sans"], "body-lg": ["Be Vietnam Pro"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Be Vietnam Pro"], "label-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Be Vietnam Pro"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"] }, fontSize: { "display-lg": ["40px", { "lineHeight": "52px", "fontWeight": "800" }], "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "42px", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "16px", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "display-lg-mobile": ["30px", { "lineHeight": "40px", "fontWeight": "800" }], "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "18px", "fontWeight": "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><button aria-label="رجوع" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container active:bg-surface-container-high transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_forward</span></button><img alt="NoteCraft Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSAv22ATFBXcf1_oaFrOYG6fNzGi-0EJm1DarHRMDltfrpI2jRZEhid61i9LccY8nJGLYCUp5UyFPSHFlHnTnxL5WoUCpjkKWcFnM9ti3FzoWmpAPL2yebDC0tnbfUiICIpTfLmFl1CZDP6_Lea_VpKMvFiNpggKFQXRSV_b_btjB4lAr7GQmVXvjfY1TBpGTMMiQUaNB0ZKQkGXpH2gzDxKY1MquNqWgbgiy4f3uozL1pOzyPUmkc"/><h1 class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate max-w-[170px]">Note Editor</h1></div><div class="flex items-center gap-space-xs"><button aria-label="المزيد من الخيارات" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8yIQMtUx9NCt1DDGZzWeglokaBv2uYPujWbyMeg9UTqk8_HyLFhJBj0MjT-CurJNX1VGEBKr0xrfJWcIP2eaociSyXgSzl_nXRr78O3R6BSdnmjni9D8fFpezmSFN6X2GbluKlx6-5z5p0xU7O4GjL79n_ILOugTaCw_sMnMpykwd9nAeXjulzY3tXJo02EYuHrrz1L5ExAvvPf-bsSJk_gCwqkRexAGnEABBZPsBfAYFbE7JRLMv"/></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface px-gutter"><div class="flex flex-col w-full pb-24 select-none">
+<!-- Dynamic Color Accent Banner / Top Ambient Mood -->
+<div class="relative w-full rounded-3xl bg-surface-container-low p-space-md mb-space-md shadow-sm transition-all duration-300">
+<div class="flex items-center justify-between gap-space-sm mb-space-sm">
+<!-- Breadcrumb Hierarchy -->
+<div class="flex items-center gap-1.5 text-on-surface-variant font-label-md text-label-md overflow-x-auto whitespace-nowrap scrollbar-none py-1">
+<span class="material-symbols-outlined text-[18px] text-primary">folder_open</span>
+<span class="hover:text-primary transition-colors cursor-pointer">العمل</span>
+<span class="material-symbols-outlined text-[14px] text-outline opacity-60">chevron_left</span>
+<span class="hover:text-primary transition-colors cursor-pointer">مشاريع 2025</span>
+<span class="material-symbols-outlined text-[14px] text-outline opacity-60">chevron_left</span>
+<span class="text-primary font-semibold">تطبيق الهاتف</span>
+</div>
+<!-- Quick Context Actions -->
+<div class="flex items-center gap-1">
+<button aria-label="التذكيرات والتنبيهات" class="relative w-9 h-9 flex items-center justify-center rounded-full bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-fixed-dim/20 transition-colors shadow-xs" id="openReminderBtn" onclick="document.getElementById('reminderBottomSheet').classList.remove('hidden')" title="ضبط التذكيرات"><span class="material-symbols-outlined text-[20px]">notifications_active</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-secondary ring-2 ring-surface-container-low"></span></button><button aria-label="تثبيت المذكرة" class="w-9 h-9 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container-high transition-colors" id="pinBtn" title="تثبيت المذكرة">
+<span class="material-symbols-outlined text-[20px] transition-transform active:scale-90" id="pinIcon">push_pin</span>
+</button>
+<button aria-label="مشاركة" class="w-9 h-9 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container-high transition-colors" title="مشاركة">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+<button aria-label="حذف المذكرة" class="w-9 h-9 flex items-center justify-center rounded-full text-error hover:bg-error-container/30 transition-colors" title="حذف">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</div>
+<!-- Note Title -->
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-extrabold tracking-tight mb-space-xs leading-snug">
+      خطة إطلاق وتطوير التطبيق الجديد
+    </h2>
+<!-- Metadata & Chips -->
+<div class="flex flex-wrap items-center justify-between gap-y-2 gap-x-space-sm pt-space-xs">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+          مهم
+        </span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-medium">
+          #تقنية
+        </span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-medium">
+          #تصميم
+        </span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant/80 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px]">schedule</span>
+<span>اليوم، 10:45 ص (منذ ساعة)</span>
+</div>
+</div><div class="mt-space-sm p-3 rounded-2xl bg-secondary-fixed/40 border border-secondary/20 flex items-center justify-between gap-2.5 transition-all cursor-pointer hover:bg-secondary-fixed/60" onclick="document.getElementById('reminderBottomSheet').classList.remove('hidden')"><div class="flex items-center gap-2.5 min-w-0"><div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center flex-shrink-0 shadow-xs"><span class="material-symbols-outlined text-[18px]">alarm_on</span></div><div class="flex flex-col min-w-0"><div class="flex items-center gap-1.5 flex-wrap"><span class="font-label-md text-label-md text-on-surface font-bold">تذكير نشط: اليوم 06:00 م</span><span class="inline-flex items-center gap-0.5 px-2 py-0.2 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[11px] font-semibold"><span class="material-symbols-outlined text-[12px]">repeat</span> يومياً</span><span class="inline-flex items-center gap-0.5 px-2 py-0.2 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[11px] font-semibold"><span class="material-symbols-outlined text-[12px]">push_pin</span> مثبت بالإشعارات</span></div><span class="font-label-sm text-label-sm text-on-surface-variant truncate mt-0.5">مؤقت متبقي: <span class="font-mono font-bold text-secondary">45 دقيقة</span> • إشعار دائم بشريط الحالة</span></div></div><div class="flex items-center gap-1 flex-shrink-0"><button class="w-7 h-7 flex items-center justify-center rounded-full text-secondary hover:bg-secondary-container/20" title="تعديل التذكير"><span class="material-symbols-outlined text-[18px]">edit_calendar</span></button></div></div>
+</div>
+<!-- Note Body Content: Tab Container -->
+<div class="flex flex-col w-full gap-space-lg">
+<!-- Tab 1: Rendered HTML Mode -->
+<div class="flex flex-col gap-space-lg transition-opacity duration-200" id="renderedView">
+<!-- Embedded Gallery Section -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">photo_library</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">معرض الصور المرفقة</h3>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-bold">٣</span>
+</div>
+<button class="font-label-md text-label-md text-primary font-bold flex items-center gap-0.5 hover:underline">
+<span>عرض الكل</span>
+<span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</button>
+</div>
+<!-- M3 Organic Mosaic Gallery Grid -->
+<div class="grid grid-cols-2 gap-space-sm w-full">
+<!-- Main Hero Image (Spans 2 columns) -->
+<div class="relative col-span-2 aspect-[16/9] rounded-2xl overflow-hidden shadow-sm group bg-surface-container cursor-pointer">
+<img alt="واجهة المستخدم المقترحة للتطبيق" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Modern smartphone mobile application user interface showcase in a soft aesthetic pastel purple setting with soft shadows, minimal stationery notes, and diffused gentle morning sunlight creating an elegant design presentation in high fidelity 3D style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjlHBdPfpAp2dJ7SuOOF-8ixKGmCSqzmoq6k7sIywJ05DWl-HKsIIBKZQijTapU209HjOOHLFxVYYJo5MfELMwQsQFfncDFU-bpa6RB-wuDXHjCZOXpIOZ--dOV75ZLhsNBileziZPrDCJKKIL5eF_YeD8bntog4rnFEj0PlcWbJPmoy3ekE7PjJ1zXVJnj_QyEgn_5LDZbZZY0ld_ncLTYOUSJO4MIrXFq0TaJC2GWKFw-oo2gICj"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-space-md">
+<span class="text-white font-label-md text-label-md font-semibold flex items-center gap-1.5 drop-shadow-sm">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+                النموذج الأولي للواجهات الرئيسية
+              </span>
+</div>
+</div>
+<!-- Secondary Image 1 -->
+<div class="relative aspect-square rounded-2xl overflow-hidden shadow-sm group bg-surface-container cursor-pointer">
+<img alt="لوحة التدرجات والألوان المعتمدة" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Digital tablet displaying a cohesive Material Design 3 color palette board with harmonious pastel swatches, typography scales in Arabic, and organic tactile UI buttons on a warm ivory surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7vGaCpKw0hcoLyRs6YzMk2qRr7zbnuZLXeNQTbUgMXYPUr710yI1amrHA4tXosdPLMzpaBwsrH_DnXPZDSUwE0xgMidKOrDjJ4-6rSNrjV3OE9QzE5zYlwz58p43TCh6agc-nJHgA_GrBMvnuDs4Z_3WoX5lTqueoLTtSQOYtx70ccmbPRHd5WuRIlPFoOu0r93qtQzjBWnIK8Hm6DZzkQuBGNcmYxZs3cuYSTX3X9T33vcCQ_tOI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent flex items-end p-space-sm">
+<span class="text-white font-label-sm text-label-sm font-medium truncate drop-shadow-sm">
+                مخطط الألوان والسمات
+              </span>
+</div>
+</div>
+<!-- Secondary Image 2 -->
+<div class="relative aspect-square rounded-2xl overflow-hidden shadow-sm group bg-surface-container cursor-pointer">
+<img alt="مخطط رحلة تجربة المستخدم" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Top down flatlay of design research user journey diagram sketched on a notepad beside coffee cup and soft purple colored markers in cozy warm daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB98kQHMtDtMVRzYy-hNOXOzN5TzzXBkH5BLQ5iLuFMsk-jKrFb9VGrPAME7Zn8qgUqiPjv1T7ZY0yfDc0O3zkH45mEpnvPscg6S-tE7aNP_5QKv8XnwYOegzfCuYVSrndjBpfUV-3GYJtqt8KMcPbg0AlIBiLdJeukFj_i3RrGF8CpG0tQfxG9M1vLXkWUElcysCRJB7gLAsDC3coJ3uUAgSD4mKQX0Sj9DAhzPTJWOHhgFQqn7r1H"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent flex items-end p-space-sm">
+<span class="text-white font-label-sm text-label-sm font-medium truncate drop-shadow-sm">
+                مخطط تجربة المستخدم
+              </span>
+</div>
+</div>
+</div>
+</section>
+<!-- Markdown Formatted Text Section -->
+<article class="flex flex-col gap-space-md bg-surface-container-lowest rounded-3xl p-space-lg shadow-sm">
+<!-- Section Heading H2 -->
+<div class="flex items-center gap-2">
+<div class="w-1.5 h-6 rounded-full bg-primary"></div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">
+            نظرة عامة على المرحلة الأولى
+          </h2>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          نهدف في هذا الإصدار إلى توفير تجربة تدوين استثنائية وسلسة تمنح الكاتب تركيزاً كاملاً وهدوءاً ذهنياً. سيتم الاعتماد كلياً على أسلوب التباين الباستيلي الناعم لتقليل الإجهاد البصري عند الكتابة لفترات طويلة.
+        </p>
+<!-- Blockquote Callout -->
+<div class="relative bg-secondary-fixed/30 rounded-2xl p-space-md my-1 flex items-start gap-space-sm overflow-hidden">
+<div class="w-1 self-stretch rounded-full bg-secondary flex-shrink-0"></div>
+<div class="flex flex-col gap-1 min-w-0">
+<span class="material-symbols-outlined text-secondary text-[24px]">format_quote</span>
+<p class="font-body-md text-body-md text-on-surface font-semibold italic leading-relaxed">
+              «التصميم الجيد ليس مجرد مظهر جذاب، بل هو إحساس عميق بالسكينة عند كل تفاعل يقوم به المستخدم.»
+            </p>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">فريق تجربة المستخدم — NoteCraft</span>
+</div>
+</div>
+<!-- Section Heading H3 -->
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-space-xs flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[20px]">checklist</span>
+          قائمة المهام القادمة
+        </h3>
+<!-- Interactive Interactive Checkboxes Group -->
+<div class="flex flex-col gap-2.5">
+<!-- Item 1: Done -->
+<label class="group flex items-start gap-3 p-3 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer">
+<input checked="" class="task-checkbox sr-only" type="checkbox"/>
+<div class="check-box-visual w-6 h-6 rounded-lg bg-tertiary flex items-center justify-center text-on-tertiary flex-shrink-0 mt-0.5 shadow-xs transition-colors">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="task-text font-body-md text-body-md text-on-surface-variant line-through opacity-70 transition-all font-medium">
+                مراجعة التصاميم مع فريق الـ UX
+              </span>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold">تم الإنجاز بواسطة سارة</span>
+</div>
+</label>
+<!-- Item 2: Done -->
+<label class="group flex items-start gap-3 p-3 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer">
+<input checked="" class="task-checkbox sr-only" type="checkbox"/>
+<div class="check-box-visual w-6 h-6 rounded-lg bg-tertiary flex items-center justify-center text-on-tertiary flex-shrink-0 mt-0.5 shadow-xs transition-colors">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="task-text font-body-md text-body-md text-on-surface-variant line-through opacity-70 transition-all font-medium">
+                تجهيز لوحة الألوان والخطوط Material 3
+              </span>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold">تم التثبيت بالنظام</span>
+</div>
+</label>
+<!-- Item 3: Pending -->
+<label class="group flex items-start gap-3 p-3 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer">
+<input class="task-checkbox sr-only" type="checkbox"/>
+<div class="check-box-visual w-6 h-6 rounded-lg bg-surface-container-highest flex items-center justify-center text-transparent flex-shrink-0 mt-0.5 transition-colors">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="task-text font-body-md text-body-md text-on-surface transition-all font-medium">
+                ربط واجهات الماركداون بالمحرر المباشر
+              </span>
+<span class="font-label-sm text-label-sm text-outline font-normal">الأولوية: عالية</span>
+</div>
+</label>
+<!-- Item 4: Pending -->
+<label class="group flex items-start gap-3 p-3 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer">
+<input class="task-checkbox sr-only" type="checkbox"/>
+<div class="check-box-visual w-6 h-6 rounded-lg bg-surface-container-highest flex items-center justify-center text-transparent flex-shrink-0 mt-0.5 transition-colors">
+<span class="material-symbols-outlined text-[18px] font-bold">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="task-text font-body-md text-body-md text-on-surface transition-all font-medium">
+                اختبار تصدير الملاحظات ومشاركتها بصيغة PDF
+              </span>
+<span class="font-label-sm text-label-sm text-outline font-normal">مستهدف قبل نهاية الأسبوع</span>
+</div>
+</label>
+</div>
+<!-- Note Footnote / Summary Card -->
+<div class="mt-space-sm p-space-md rounded-2xl bg-primary-fixed-dim/20 flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">lightbulb</span>
+<p class="font-body-sm text-body-sm text-on-surface font-medium leading-normal">
+            تلميح: يتم حفظ التعديلات وحالة المهام فوراً ومزامنتها على السحابة المشفرة.
+          </p>
+</div>
+</article>
+</div>
+<!-- Tab 2: Raw Markdown Source View (Hidden by default) -->
+<div class="hidden flex flex-col gap-space-sm transition-opacity duration-200" id="rawMarkdownView">
+<div class="w-full rounded-3xl bg-inverse-surface p-space-lg text-inverse-on-surface font-mono text-body-sm leading-relaxed overflow-x-auto shadow-md">
+<pre class="whitespace-pre-wrap font-mono"><code># خطة إطلاق وتطوير التطبيق الجديد
+
+**المسار:** العمل &gt; مشاريع 2025 &gt; تطبيق الهاتف
+**الوسوم:** #مهم #تقنية #تصميم
+
+---
+
+## معرض الصور المرفقة
+![الواجهة الرئيسية](image_hero.png)
+![الألوان والخطوط](image_palette.png)
+![مخطط رحلة المستخدم](image_ux.png)
+
+## نظرة عامة على المرحلة الأولى
+نهدف في هذا الإصدار إلى توفير تجربة تدوين استثنائية وسلسة تمنح الكاتب تركيزاً كاملاً وهدوءاً ذهنياً.
+
+&gt; «التصميم الجيد ليس مجرد مظهر جذاب، بل هو إحساس عميق بالسكينة عند كل تفاعل يقوم به المستخدم.»
+
+### قائمة المهام القادمة
+- [x] مراجعة التصاميم مع فريق الـ UX
+- [x] تجهيز لوحة الألوان والخطوط Material 3
+- [ ] ربط واجهات الماركداون بالمحرر المباشر
+- [ ] اختبار تصدير الملاحظات ومشاركتها بصيغة PDF
+</code></pre>
+</div>
+</div>
+</div>
+<!-- Bottom Floating Switcher & Edit FAB Bar -->
+<div class="fixed bottom-4 inset-x-4 z-40 max-w-md mx-auto flex items-center justify-between gap-3 pointer-events-none">
+<!-- Rendered / Markdown Toggle Pill -->
+<div class="pointer-events-auto bg-surface-container-lowest/95 backdrop-blur-xl shadow-lg rounded-full p-1.5 flex items-center gap-1">
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold transition-all shadow-xs" id="viewRenderedBtn">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>منسّق (HTML)</span>
+</button>
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-md text-label-md font-medium transition-all" id="viewRawBtn">
+<span class="material-symbols-outlined text-[18px]">code</span>
+<span>كود الماركداون</span>
+</button>
+</div>
+<!-- Edit FAB Floating Action Button (RTL Thumb Zone) -->
+<button aria-label="تعديل المذكرة" class="pointer-events-auto w-14 h-14 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-xl active:scale-95 transition-all hover:bg-primary" title="تعديل المذكرة">
+<span class="material-symbols-outlined text-[26px]">edit</span>
+</button>
+</div>
+<!-- Micro-Interactions Client-Side Script -->
+<script>
+    // Tab Switching Logic
+    const viewRenderedBtn = document.getElementById('viewRenderedBtn');
+    const viewRawBtn = document.getElementById('viewRawBtn');
+    const renderedView = document.getElementById('renderedView');
+    const rawMarkdownView = document.getElementById('rawMarkdownView');
+
+    viewRenderedBtn.addEventListener('click', () => {
+      renderedView.classList.remove('hidden');
+      rawMarkdownView.classList.add('hidden');
+      
+      viewRenderedBtn.className = 'flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold transition-all shadow-xs';
+      viewRawBtn.className = 'flex items-center gap-1.5 px-4 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-md text-label-md font-medium transition-all';
+    });
+
+    viewRawBtn.addEventListener('click', () => {
+      rawMarkdownView.classList.remove('hidden');
+      renderedView.classList.add('hidden');
+      
+      viewRawBtn.className = 'flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold transition-all shadow-xs';
+      viewRenderedBtn.className = 'flex items-center gap-1.5 px-4 py-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-md text-label-md font-medium transition-all';
+    });
+
+    // Checkbox Interactive Toggle
+    document.querySelectorAll('.task-checkbox').forEach(cb => {
+      cb.addEventListener('change', (e) => {
+        const visual = e.target.parentElement.querySelector('.check-box-visual');
+        const text = e.target.parentElement.querySelector('.task-text');
+        
+        if (e.target.checked) {
+          visual.classList.remove('bg-surface-container-highest', 'text-transparent');
+          visual.classList.add('bg-tertiary', 'text-on-tertiary');
+          text.classList.add('line-through', 'opacity-70', 'text-on-surface-variant');
+          text.classList.remove('text-on-surface');
+        } else {
+          visual.classList.add('bg-surface-container-highest', 'text-transparent');
+          visual.classList.remove('bg-tertiary', 'text-on-tertiary');
+          text.classList.remove('line-through', 'opacity-70', 'text-on-surface-variant');
+          text.classList.add('text-on-surface');
+        }
+      });
+    });
+
+    // Pin Toggle Microinteraction
+    const pinBtn = document.getElementById('pinBtn');
+    const pinIcon = document.getElementById('pinIcon');
+    let isPinned = false;
+
+    pinBtn.addEventListener('click', () => {
+      isPinned = !isPinned;
+      if (isPinned) {
+        pinBtn.classList.add('bg-primary-fixed', 'text-primary');
+        pinBtn.classList.remove('text-on-surface-variant');
+        pinIcon.style.fontVariationSettings = "'FILL' 1";
+      } else {
+        pinBtn.classList.remove('bg-primary-fixed', 'text-primary');
+        pinBtn.classList.add('text-on-surface-variant');
+        pinIcon.style.fontVariationSettings = "'FILL' 0";
+      }
+    });
+  </script>
+</div></main><div class="hidden fixed inset-0 z-50 flex items-end justify-center" id="reminderBottomSheet"><div class="absolute inset-0 bg-black/40 backdrop-blur-xs transition-opacity" onclick="document.getElementById('reminderBottomSheet').classList.add('hidden')"></div><div class="relative w-full max-w-md bg-surface-bright rounded-t-3xl shadow-2xl p-space-md max-h-[90vh] overflow-y-auto flex flex-col gap-space-md border-t border-outline-variant/30"><div class="w-12 h-1.5 rounded-full bg-outline-variant mx-auto self-center opacity-70"></div><div class="flex items-center justify-between pb-1 border-b border-surface-container-highest"><div class="flex items-center gap-2"><div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed"><span class="material-symbols-outlined text-[22px]">notification_add</span></div><div><h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">ضبط التذكير والتنبيهات</h3><p class="font-label-sm text-label-sm text-on-surface-variant">إدارة مواعيد الإشعار وتثبيت المذكرة</p></div></div><button class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high" onclick="document.getElementById('reminderBottomSheet').classList.add('hidden')"><span class="material-symbols-outlined text-[20px]">close</span></button></div><div class="flex items-center justify-between p-3 rounded-2xl bg-secondary-fixed/20 border border-secondary/20"><div class="flex items-center gap-2.5"><div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center"><span class="material-symbols-outlined text-[18px]">push_pin</span></div><div><h4 class="font-label-md text-label-md text-on-surface font-bold">تثبيت دائم في شريط الإشعارات</h4><p class="font-label-sm text-label-sm text-on-surface-variant">إبقاء المذكرة مرئية في شريط الحالة لعدم نسيانها</p></div></div><label class="relative inline-flex items-center cursor-pointer"><input checked="" class="sr-only peer" type="checkbox"/><div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white peer-checked:after:bg-on-primary peer-checked:bg-secondary after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-outline after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all"></div></label></div><div class="p-2.5 rounded-xl bg-inverse-surface text-inverse-on-surface shadow-xs flex flex-col gap-1"><div class="flex items-center justify-between text-[11px] text-outline-variant font-label-sm"><span>معاينة إشعار شريط الحالة (Android)</span><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">lock</span> مثبت</span></div><div class="flex items-center gap-2 pt-0.5"><div class="w-6 h-6 rounded bg-primary flex items-center justify-center text-white flex-shrink-0"><span class="material-symbols-outlined text-[14px]">edit_note</span></div><div class="flex-1 min-w-0"><p class="font-label-sm text-label-sm font-bold text-white truncate">NoteCraft • خطة إطلاق وتطوير التطبيق</p><p class="font-body-sm text-[11px] text-surface-container-highest truncate">مراجعة الـ UX مكتملة • متبقي ربط واجهات الماركداون...</p></div><span class="text-[11px] font-mono text-outline-variant">الآن</span></div></div><div class="flex flex-col gap-2"><label class="font-label-md text-label-md font-bold text-on-surface flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-[18px]">schedule</span> الأوقات والمواعيد المحددة</label><div class="grid grid-cols-3 gap-2"><button class="py-2 px-2.5 rounded-xl bg-surface-container text-on-surface font-label-sm text-label-sm font-medium hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-colors text-center" type="button">اليوم 06:00 م</button><button class="py-2 px-2.5 rounded-xl bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-xs text-center" type="button">اليوم 09:00 م</button><button class="py-2 px-2.5 rounded-xl bg-surface-container text-on-surface font-label-sm text-label-sm font-medium hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-colors text-center" type="button">غداً 09:00 ص</button></div><div class="flex items-center gap-2 mt-1"><input class="flex-1 py-1.5 px-3 rounded-xl bg-surface-container-low border border-outline-variant/50 text-on-surface font-label-sm text-label-sm" type="date" value="2025-05-15"/><input class="py-1.5 px-3 rounded-xl bg-surface-container-low border border-outline-variant/50 text-on-surface font-label-sm text-label-sm font-mono" type="time" value="18:00"/></div></div><div class="flex flex-col gap-2"><label class="font-label-md text-label-md font-bold text-on-surface flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-[18px]">timer</span> مؤقت تنازلي (Countdown Duration)</label><div class="flex flex-wrap items-center gap-1.5"><button class="px-3 py-1.5 rounded-xl bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-medium hover:bg-surface-container-high" type="button">15 دقيقة</button><button class="px-3 py-1.5 rounded-xl bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-medium hover:bg-surface-container-high" type="button">30 دقيقة</button><button class="px-3 py-1.5 rounded-xl bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold shadow-xs" type="button">45 دقيقة (نشط)</button><button class="px-3 py-1.5 rounded-xl bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-medium hover:bg-surface-container-high" type="button">1 ساعة</button><button class="px-3 py-1.5 rounded-xl bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-medium hover:bg-surface-container-high" type="button">3 ساعات</button></div></div><div class="flex flex-col gap-2"><label class="font-label-md text-label-md font-bold text-on-surface flex items-center gap-1.5"><span class="material-symbols-outlined text-tertiary text-[18px]">update</span> تكرار مجدول متعدد (Repeating / Multiple)</label><div class="p-3 rounded-2xl bg-surface-container-low flex flex-col gap-2.5"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface font-semibold">تكرار يومي في عدة مواعيد:</span><span class="font-label-sm text-label-sm text-tertiary font-bold">3 مرات يومياً</span></div><div class="flex items-center gap-1.5"><span class="px-2 py-1 rounded-lg bg-surface-container-highest text-on-surface font-mono text-[12px]">09:00 ص</span><span class="px-2 py-1 rounded-lg bg-secondary text-on-secondary font-mono text-[12px] font-bold">02:00 م</span><span class="px-2 py-1 rounded-lg bg-secondary text-on-secondary font-mono text-[12px] font-bold">06:00 م</span><button class="w-7 h-7 rounded-lg bg-surface-container flex items-center justify-center text-primary hover:bg-primary-fixed"><span class="material-symbols-outlined text-[16px]">add</span></button></div></div></div><div class="flex items-center gap-2 pt-2"><button class="flex-1 py-3 px-4 rounded-2xl bg-primary text-on-primary font-label-md text-label-md font-bold flex items-center justify-center gap-1.5 shadow-md active:scale-95 transition-all" onclick="document.getElementById('reminderBottomSheet').classList.add('hidden')" type="button"><span class="material-symbols-outlined text-[18px]">check</span> حفظ وتفعيل التذكير</button><button class="py-3 px-4 rounded-2xl bg-surface-container text-on-surface-variant font-label-md text-label-md font-medium hover:bg-surface-container-high transition-colors" onclick="document.getElementById('reminderBottomSheet').classList.add('hidden')" type="button">إلغاء</button></div></div></div></body></html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fbf8ff;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-variant": "#e4e1ea", "secondary-container": "#6f5fea", "tertiary-fixed-dim": "#4bddb7", "secondary-fixed-dim": "#c6bfff", "surface-container-lowest": "#ffffff", "surface-tint": "#6c45c0", "surface-bright": "#fbf8ff", "on-tertiary": "#ffffff", "surface-container": "#efecf5", "primary-fixed-dim": "#d1bcff", "on-secondary-fixed": "#160066", "inverse-primary": "#d1bcff", "background": "#fbf8ff", "surface": "#fbf8ff", "inverse-surface": "#303036", "primary-fixed": "#eaddff", "on-primary-container": "#ceb8ff", "surface-dim": "#dbd9e1", "on-secondary-container": "#fffbff", "on-tertiary-fixed-variant": "#005140", "outline": "#7b7484", "on-tertiary-container": "#47dab4", "secondary-fixed": "#e4dfff", "on-secondary": "#ffffff", "on-primary": "#ffffff", "tertiary-container": "#005c49", "on-background": "#1b1b21", "on-secondary-fixed-variant": "#4029ba", "on-surface-variant": "#494453", "on-primary-fixed": "#24005b", "tertiary-fixed": "#6dfad2", "secondary": "#5644d0", "tertiary": "#004234", "on-primary-fixed-variant": "#5429a7", "outline-variant": "#cbc3d5", "on-tertiary-fixed": "#002018", "surface-container-highest": "#e4e1ea", "on-surface": "#1b1b21", "error-container": "#ffdad6", "on-error": "#ffffff", "on-error-container": "#93000a", "inverse-on-surface": "#f2eff8", "surface-container-high": "#eae7ef", "primary": "#461599", "primary-container": "#5e35b1", "surface-container-low": "#f5f2fb", "error": "#ba1a1a" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-desktop": "1.5rem", "gutter": "1rem", "space-md": "1rem", "space-xl": "2.25rem", "margin-desktop": "2.5rem", "margin": "1rem", "margin-tablet": "1.5rem", "space-xs": "0.25rem", "gutter-tablet": "1.25rem", "space-sm": "0.5rem" }, fontFamily: { "display-lg": ["Plus Jakarta Sans"], "body-lg": ["Be Vietnam Pro"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Be Vietnam Pro"], "label-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Be Vietnam Pro"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"] }, fontSize: { "display-lg": ["40px", { "lineHeight": "52px", "fontWeight": "800" }], "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "42px", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "16px", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "display-lg-mobile": ["30px", { "lineHeight": "40px", "fontWeight": "800" }], "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "18px", "fontWeight": "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="NoteCraft Logo" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSAv22ATFBXcf1_oaFrOYG6fNzGi-0EJm1DarHRMDltfrpI2jRZEhid61i9LccY8nJGLYCUp5UyFPSHFlHnTnxL5WoUCpjkKWcFnM9ti3FzoWmpAPL2yebDC0tnbfUiICIpTfLmFl1CZDP6_Lea_VpKMvFiNpggKFQXRSV_b_btjB4lAr7GQmVXvjfY1TBpGTMMiQUaNB0ZKQkGXpH2gzDxKY1MquNqWgbgiy4f3uozL1pOzyPUmkc"/><div class="flex flex-col truncate"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold truncate">دوّن</span><span class="font-label-sm text-label-sm text-outline hidden xs:block truncate">NoteCraft</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="تبديل طريقة العرض" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">grid_view</span></button><button aria-label="الملف الشخصي" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8yIQMtUx9NCt1DDGZzWeglokaBv2uYPujWbyMeg9UTqk8_HyLFhJBj0MjT-CurJNX1VGEBKr0xrfJWcIP2eaociSyXgSzl_nXRr78O3R6BSdnmjni9D8fFpezmSFN6X2GbluKlx6-5z5p0xU7O4GjL79n_ILOugTaCw_sMnMpykwd9nAeXjulzY3tXJo02EYuHrrz1L5ExAvvPf-bsSJk_gCwqkRexAGnEABBZPsBfAYFbE7JRLMv"/></button></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-28 bg-surface px-gutter"><div class="flex flex-col w-full pb-8">
+<!-- Search Input Header with M3 Surface -->
+<div class="sticky top-0 z-30 pt-2 pb-3 bg-surface/90 backdrop-blur-md">
+<div class="relative flex items-center">
+<div class="absolute right-4 flex items-center pointer-events-none text-primary">
+<span class="material-symbols-outlined text-[24px]">search</span>
+</div>
+<input class="w-full h-14 pr-12 pl-12 rounded-full bg-surface-container-high text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all duration-200" id="search-input" placeholder="ابحث في عناوين ونصوص الملاحظات..." type="search" value="تصميم واجهة"/>
+<button aria-label="مسح النص" class="absolute left-3 w-9 h-9 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-variant transition-colors" id="clear-search-btn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Active Filter Quick Chips Bar -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar mt-3 pt-1">
+<span class="font-label-sm text-label-sm text-outline px-1 shrink-0">نشط:</span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md shrink-0">
+        العمل (2)
+        <span class="material-symbols-outlined text-[16px] cursor-pointer">close</span>
+</span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md shrink-0">
+        #تصميم
+        <span class="material-symbols-outlined text-[16px] cursor-pointer">close</span>
+</span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md shrink-0">
+        قوائم مهام
+        <span class="material-symbols-outlined text-[16px] cursor-pointer">close</span>
+</span>
+<button class="font-label-md text-label-md text-primary font-semibold underline px-2 shrink-0">
+        مسح الكل
+      </button>
+</div>
+</div>
+<!-- Filter Groups Container -->
+<div class="flex flex-col gap-space-md mt-2">
+<!-- Category Hierarchy Filter Accordion Card -->
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">folder_special</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">الأقسام والشُعب</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">حدد مجالات البحث ومساراتها</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary font-bold">
+          مُفعل 2
+        </span>
+</div>
+<!-- Smart Toggle: Include Subcategories -->
+<div class="flex items-center justify-between p-3 rounded-DEFAULT bg-surface-container mb-3.5">
+<div class="flex flex-col pr-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">تضمين الأقسام الفرعية تلقائياً</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">شمول المجلدات المتفرعة عند اختيار القسم الرئيسي</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" id="auto-sub-toggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-container"></div>
+</label>
+</div>
+<!-- Tree Hierarchy List -->
+<div class="flex flex-col gap-2">
+<!-- Main Category 1: Work (Checked) -->
+<div class="rounded-DEFAULT bg-surface-container-lowest p-3">
+<label class="flex items-center justify-between cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-5 h-5 rounded-md accent-primary cursor-pointer" type="checkbox"/>
+<span class="material-symbols-outlined text-primary text-[20px]">apartment</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">العمل والمؤسسة</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">18 ملاحظة</span>
+</label>
+<!-- Nested subcategories -->
+<div class="mt-2.5 mr-6 flex flex-col gap-2 pt-2 border-r-2 border-surface-variant pr-3">
+<label class="flex items-center justify-between cursor-pointer py-1">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-4 h-4 rounded accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">مشاريع 2025</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">11</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer py-1">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 rounded accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">العملاء والعقود الرسمية</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">7</span>
+</label>
+</div>
+</div>
+<!-- Main Category 2: Personal (Checked) -->
+<div class="rounded-DEFAULT bg-surface-container-lowest p-3">
+<label class="flex items-center justify-between cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-5 h-5 rounded-md accent-primary cursor-pointer" type="checkbox"/>
+<span class="material-symbols-outlined text-secondary text-[20px]">person</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">المساحة الشخصية</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">14 ملاحظة</span>
+</label>
+<!-- Nested subcategories -->
+<div class="mt-2.5 mr-6 flex flex-col gap-2 pt-2 border-r-2 border-surface-variant pr-3">
+<label class="flex items-center justify-between cursor-pointer py-1">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 rounded accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">المشتريات والتسوق</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">4</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer py-1">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-4 h-4 rounded accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">الأفكار اليومية والتأملات</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">10</span>
+</label>
+</div>
+</div>
+<!-- Main Category 3: Research (Unchecked) -->
+<div class="rounded-DEFAULT bg-surface-container-lowest p-3">
+<label class="flex items-center justify-between cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input class="w-5 h-5 rounded-md accent-primary cursor-pointer" type="checkbox"/>
+<span class="material-symbols-outlined text-outline text-[20px]">menu_book</span>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">دراسة وأبحاث أكاديمية</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">9 ملاحظات</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Tags Multi-selection -->
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">tag</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">الوسوم النشطة</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">تصفح عبر الكلمات الدلالية</p>
+</div>
+</div>
+<button class="font-label-md text-label-md text-primary font-bold hover:underline">
+          إدارة الوسوم
+        </button>
+</div>
+<div class="flex flex-wrap gap-2 pt-1" id="tags-container">
+<!-- Tag Active 1 -->
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>#مهم</span>
+</button>
+<!-- Tag Active 2 -->
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>#تصميم</span>
+</button>
+<!-- Tag Inactive -->
+<button class="flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-variant active:scale-95 transition-all">
+<span>#أفكار</span>
+</button>
+<!-- Tag Inactive -->
+<button class="flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-variant active:scale-95 transition-all">
+<span>#ميزانية</span>
+</button>
+<!-- Tag Inactive -->
+<button class="flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-variant active:scale-95 transition-all">
+<span>#عاجل</span>
+</button>
+<!-- Tag Inactive -->
+<button class="flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-variant active:scale-95 transition-all">
+<span>#اجتماع</span>
+</button>
+<!-- Tag Inactive -->
+<button class="flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-variant active:scale-95 transition-all">
+<span>#ملهم</span>
+</button>
+</div>
+</div>
+<!-- Content Type Multi-filter -->
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-space-sm mb-3">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">filter_alt</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">نوع المحتوى المرفق</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">عزل الملاحظات حسب طبيعة العناصر</p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+<!-- Content Chip 1: Photos -->
+<label class="flex items-center justify-between p-3 rounded-DEFAULT bg-surface-container-lowest cursor-pointer hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">image</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">تضمينات صور ومعارض</span>
+</div>
+<input class="w-4 h-4 rounded accent-primary cursor-pointer" type="checkbox"/>
+</label>
+<!-- Content Chip 2: Checklists (Checked) -->
+<label class="flex items-center justify-between p-3 rounded-DEFAULT bg-secondary-fixed text-on-secondary-fixed cursor-pointer transition-colors">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">checklist</span>
+<span class="font-label-md text-label-md font-bold">قوائم مهام وإنجاز</span>
+</div>
+<input checked="" class="w-4 h-4 rounded accent-primary cursor-pointer" type="checkbox"/>
+</label>
+<!-- Content Chip 3: Pinned -->
+<label class="flex items-center justify-between p-3 rounded-DEFAULT bg-surface-container-lowest cursor-pointer hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">push_pin</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">ملاحظات مثبتة فقط</span>
+</div>
+<input class="w-4 h-4 rounded accent-primary cursor-pointer" type="checkbox"/>
+</label>
+</div>
+</div>
+<!-- Note Color Swatches Filter -->
+<div class="p-space-md rounded-lg bg-surface-container-low shadow-sm">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed-dim flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">تلوين الملاحظات</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">الفرز وفق نمط البطاقة الباستيلي</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-outline">أي لون</span>
+</div>
+<div class="flex items-center justify-around py-1">
+<!-- Swatch: All Colors -->
+<button class="relative w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-primary font-bold text-xs ring-2 ring-primary ring-offset-2">
+<span class="material-symbols-outlined text-[18px]">done_all</span>
+</button>
+<!-- Swatch: Lavender -->
+<button class="w-10 h-10 rounded-full bg-primary-fixed hover:scale-110 active:scale-95 transition-transform flex items-center justify-center text-on-primary-fixed"></button>
+<!-- Swatch: Mint Green -->
+<button class="w-10 h-10 rounded-full bg-tertiary-fixed hover:scale-110 active:scale-95 transition-transform flex items-center justify-center text-on-tertiary-fixed"></button>
+<!-- Swatch: Periwinkle -->
+<button class="w-10 h-10 rounded-full bg-secondary-fixed hover:scale-110 active:scale-95 transition-transform flex items-center justify-center text-on-secondary-fixed"></button>
+<!-- Swatch: Peach Soft -->
+<button class="w-10 h-10 rounded-full bg-surface-variant hover:scale-110 active:scale-95 transition-transform flex items-center justify-center text-on-surface-variant"></button>
+<!-- Swatch: White/Clean -->
+<button class="w-10 h-10 rounded-full bg-surface-container-lowest shadow-sm hover:scale-110 active:scale-95 transition-transform flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[16px]">format_color_reset</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Immediate Results Banner & Counter Trigger -->
+<div class="mt-4 flex items-center justify-between p-3.5 rounded-DEFAULT bg-primary-container text-on-primary shadow-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-on-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg font-bold block">7 ملاحظات مطابقة للتصفية</span>
+<span class="font-label-sm text-label-sm opacity-80">تم التحديث الفوري بناءً على المعايير</span>
+</div>
+</div>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-primary font-label-md text-label-md font-bold shadow hover:bg-surface-bright active:scale-95 transition-all">
+      تطبيق النتائج
+    </button>
+</div>
+<!-- Fast Live Preview Results List -->
+<div class="mt-6 flex flex-col gap-3">
+<div class="flex items-center justify-between px-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">معاينة النتائج المباشرة</h3>
+<span class="font-label-sm text-label-sm text-outline">ترتيب حسب: الأحدث تعديلاً</span>
+</div>
+<!-- Match Card 1: Rich Note with Image & Highlighting -->
+<div class="relative p-space-md rounded-lg bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+            العمل / مشاريع 2025
+          </span>
+<span class="text-outline text-[12px]">• منذ 20 دقيقة</span>
+</div>
+<button class="text-on-surface-variant hover:text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">push_pin</span>
+</button>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-1.5">
+        خطة <mark class="bg-primary-fixed text-on-primary-fixed px-1 rounded">تصميم واجهة</mark> نظام المذكرات دوّن
+      </h4>
+<p class="font-body-md text-body-md text-on-surface-variant mb-3 line-clamp-2">
+        مراجعة تجربة الاستخدام لشاشات التحرير المتقدم، مع تحسين تدفق نظام الأقسام والشُعب المتعددة وتكامل
+        <mark class="bg-primary-fixed text-on-primary-fixed px-1 rounded">الواجهة</mark> لتدعم الخطوط العربية الرشيقة بدقة كاملة...
+      </p>
+<div class="flex items-center justify-between pt-2 border-t border-surface-container">
+<div class="flex items-center gap-1.5">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">#تصميم</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">#مهم</span>
+</div>
+<div class="flex items-center gap-2 text-outline font-label-sm text-label-sm">
+<span class="flex items-center gap-0.5"><span class="material-symbols-outlined text-[16px]">check_box</span> 4/6</span>
+<span class="flex items-center gap-0.5"><span class="material-symbols-outlined text-[16px]">attachment</span> 2</span>
+</div>
+</div>
+</div>
+<!-- Match Card 2: Checklist Focus Note -->
+<div class="relative p-space-md rounded-lg bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold">
+            المساحة الشخصية / الأفكار اليومية
+          </span>
+<span class="text-outline text-[12px]">• أمس، 8:15 م</span>
+</div>
+<button class="text-outline hover:text-primary">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">
+        قائمة مهام تحديث <mark class="bg-primary-fixed text-on-primary-fixed px-1 rounded">تصميم</mark> المكونات البصرية
+      </h4>
+<!-- Visual mini task preview -->
+<div class="flex flex-col gap-1.5 mb-3 bg-surface-container-low p-2.5 rounded-DEFAULT">
+<div class="flex items-center gap-2 text-on-surface-variant line-through text-body-sm opacity-70">
+<span class="material-symbols-outlined text-tertiary-container text-[18px]">check_circle</span>
+<span>تطبيق فلسفة المساحات السلبية ونقاء الباستيل</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface text-body-sm font-medium">
+<span class="material-symbols-outlined text-outline text-[18px]">radio_button_unchecked</span>
+<span>إعداد حقول التصفية المتقدمة للأقسام الشجرية</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">#تصميم</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">#أفكار</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold flex items-center gap-1">
+          فتح الملاحظة
+          <span class="material-symbols-outlined text-[16px] rotate-180">arrow_back</span>
+</span>
+</div>
+</div>
+</div>
+<!-- Interactive script for tag toggles & dynamic count feedback -->
+<script>
+    document.querySelectorAll('#tags-container button').forEach(button => {
+      button.addEventListener('click', () => {
+        const isSelected = button.classList.contains('bg-primary');
+        if (isSelected) {
+          button.classList.remove('bg-primary', 'text-on-primary');
+          button.classList.add('bg-surface-container-lowest', 'text-on-surface');
+          const checkIcon = button.querySelector('.material-symbols-outlined');
+          if (checkIcon) checkIcon.remove();
+        } else {
+          button.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+          button.classList.add('bg-primary', 'text-on-primary');
+          const span = document.createElement('span');
+          span.className = 'material-symbols-outlined text-[16px]';
+          span.textContent = 'check';
+          button.prepend(span);
+        }
+      });
+    });
+
+    const clearBtn = document.getElementById('clear-search-btn');
+    const searchInput = document.getElementById('search-input');
+    if (clearBtn && searchInput) {
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchInput.focus();
+      });
+    }
+  </script>
+</div></main><aside class="fixed left-gutter bottom-24 z-40 pb-safe"><a aria-label="ملاحظة جديدة" class="flex items-center justify-center w-14 h-14 rounded-2xl bg-primary-container text-on-primary shadow-[0_10px_25px_-3px_rgba(94,53,177,0.35)] hover:scale-105 active:scale-95 transition-transform duration-200" data-path="note-editor" href="#"><span class="material-symbols-outlined text-[28px]">edit</span></a></aside><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.04)]" data-active-classes="text-primary font-bold [&amp;&gt;div]:bg-primary-fixed [&amp;&gt;div]:text-on-primary-fixed [&amp;&gt;span:first-child]:font-bold"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-space-xs min-w-[64px] h-12 text-on-surface-variant transition-all" data-path="all-notes" href="#"><div class="flex items-center justify-center w-14 h-7 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">description</span></div><span class="font-label-sm text-label-sm">المذكرات</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[64px] h-12 text-on-surface-variant transition-all" data-path="categories" href="#"><div class="flex items-center justify-center w-14 h-7 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">folder_open</span></div><span class="font-label-sm text-label-sm">الأقسام</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-space-xs min-w-[64px] h-12 transition-all text-primary font-bold [&amp;&gt;div]:bg-primary-fixed [&amp;&gt;div]:text-on-primary-fixed [&amp;&gt;span:first-child]:font-bold" data-path="advanced-search" href="#"><div class="flex items-center justify-center w-14 h-7 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">manage_search</span></div><span class="font-label-sm text-label-sm">البحث</span></a><a class="flex flex-col items-center justify-center gap-space-xs min-w-[64px] h-12 text-on-surface-variant transition-all" data-path="settings" href="#"><div class="flex items-center justify-center w-14 h-7 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">settings</span></div><span class="font-label-sm text-label-sm">الإعدادات</span></a></div></nav></body></html>

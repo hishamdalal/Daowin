@@ -1,0 +1,6 @@
+{
+  "name": "دوّن NoteCraft",
+  "description": "تطبيق التدوين والملاحظات الذكي متعدد الشاشات مع دعم الماركداون والوضع الداكن والمزامنة دون اتصال بالإنترنت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

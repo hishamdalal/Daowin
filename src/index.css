@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-surface: #fbf8ff;
+    --text-on-surface: #1b1b21;
+    --text-on-surface-variant: #494453;
+    --surface-container: #efecf5;
+    --surface-container-low: #f5f2fb;
+    --surface-container-high: #eae7ef;
+    --surface-container-highest: #e4e1ea;
+    --surface-container-lowest: #ffffff;
+    --primary: #461599;
+    --primary-container: #5e35b1;
+    --primary-fixed: #eaddff;
+    --on-primary-fixed: #24005b;
+    --secondary: #5644d0;
+    --secondary-container: #6f5fea;
+    --secondary-fixed: #e4dfff;
+    --on-secondary-fixed: #160066;
+    --tertiary: #006954;
+    --tertiary-fixed: #6dfad2;
+    --tertiary-fixed-dim: #4bddb7;
+    --on-tertiary-fixed: #002018;
+    --outline: #7b7484;
+    --outline-variant: #cbc3d5;
+    --border-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .dark {
+    --bg-surface: #121118;
+    --text-on-surface: #f2eff8;
+    --text-on-surface-variant: #cbc3d5;
+    --surface-container: #1e1c25;
+    --surface-container-low: #181620;
+    --surface-container-high: #292732;
+    --surface-container-highest: #34323e;
+    --surface-container-lowest: #0c0b11;
+    --primary: #cfbcff;
+    --primary-container: #6b43bf;
+    --primary-fixed: #412089;
+    --on-primary-fixed: #eddfff;
+    --secondary: #a394ff;
+    --secondary-container: #4f3eb5;
+    --secondary-fixed: #352b7a;
+    --on-secondary-fixed: #ebe7ff;
+    --tertiary: #4ee0b9;
+    --tertiary-fixed: #004d3c;
+    --tertiary-fixed-dim: #2cbfa0;
+    --on-tertiary-fixed: #c6fbe8;
+    --outline: #948e9d;
+    --outline-variant: #494452;
+    --border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Tajawal', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-surface);
+    color: var(--text-on-surface);
+    transition: background-color 0.25s ease, color 0.25s ease;
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom Utilities for smooth App feel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Safe areas */
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fbf8ff;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-variant": "#e4e1ea", "secondary-container": "#6f5fea", "tertiary-fixed-dim": "#4bddb7", "secondary-fixed-dim": "#c6bfff", "surface-container-lowest": "#ffffff", "surface-tint": "#6c45c0", "surface-bright": "#fbf8ff", "on-tertiary": "#ffffff", "surface-container": "#efecf5", "primary-fixed-dim": "#d1bcff", "on-secondary-fixed": "#160066", "inverse-primary": "#d1bcff", "background": "#fbf8ff", "surface": "#fbf8ff", "inverse-surface": "#303036", "primary-fixed": "#eaddff", "on-primary-container": "#ceb8ff", "surface-dim": "#dbd9e1", "on-secondary-container": "#fffbff", "on-tertiary-fixed-variant": "#005140", "outline": "#7b7484", "on-tertiary-container": "#47dab4", "secondary-fixed": "#e4dfff", "on-secondary": "#ffffff", "on-primary": "#ffffff", "tertiary-container": "#005c49", "on-background": "#1b1b21", "on-secondary-fixed-variant": "#4029ba", "on-surface-variant": "#494453", "on-primary-fixed": "#24005b", "tertiary-fixed": "#6dfad2", "secondary": "#5644d0", "tertiary": "#004234", "on-primary-fixed-variant": "#5429a7", "outline-variant": "#cbc3d5", "on-tertiary-fixed": "#002018", "surface-container-highest": "#e4e1ea", "on-surface": "#1b1b21", "error-container": "#ffdad6", "on-error": "#ffffff", "on-error-container": "#93000a", "inverse-on-surface": "#f2eff8", "surface-container-high": "#eae7ef", "primary": "#461599", "primary-container": "#5e35b1", "surface-container-low": "#f5f2fb", "error": "#ba1a1a" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-desktop": "1.5rem", "gutter": "1rem", "space-md": "1rem", "space-xl": "2.25rem", "margin-desktop": "2.5rem", "margin": "1rem", "margin-tablet": "1.5rem", "space-xs": "0.25rem", "gutter-tablet": "1.25rem", "space-sm": "0.5rem" }, fontFamily: { "display-lg": ["Plus Jakarta Sans"], "body-lg": ["Be Vietnam Pro"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Be Vietnam Pro"], "label-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Be Vietnam Pro"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"] }, fontSize: { "display-lg": ["40px", { "lineHeight": "52px", "fontWeight": "800" }], "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "42px", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "16px", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "display-lg-mobile": ["30px", { "lineHeight": "40px", "fontWeight": "800" }], "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "18px", "fontWeight": "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><button aria-label="رجوع" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container active:bg-surface-container-high transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_forward</span></button><img alt="NoteCraft Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSAv22ATFBXcf1_oaFrOYG6fNzGi-0EJm1DarHRMDltfrpI2jRZEhid61i9LccY8nJGLYCUp5UyFPSHFlHnTnxL5WoUCpjkKWcFnM9ti3FzoWmpAPL2yebDC0tnbfUiICIpTfLmFl1CZDP6_Lea_VpKMvFiNpggKFQXRSV_b_btjB4lAr7GQmVXvjfY1TBpGTMMiQUaNB0ZKQkGXpH2gzDxKY1MquNqWgbgiy4f3uozL1pOzyPUmkc"/><h1 class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate max-w-[170px]">Note Editor</h1></div><div class="flex items-center gap-space-xs"><button aria-label="المزيد من الخيارات" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8yIQMtUx9NCt1DDGZzWeglokaBv2uYPujWbyMeg9UTqk8_HyLFhJBj0MjT-CurJNX1VGEBKr0xrfJWcIP2eaociSyXgSzl_nXRr78O3R6BSdnmjni9D8fFpezmSFN6X2GbluKlx6-5z5p0xU7O4GjL79n_ILOugTaCw_sMnMpykwd9nAeXjulzY3tXJo02EYuHrrz1L5ExAvvPf-bsSJk_gCwqkRexAGnEABBZPsBfAYFbE7JRLMv"/></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface px-gutter"><div class="flex flex-col w-full pb-28">
+<!-- Status & Quick Action Ribbon -->
+<div class="flex items-center justify-between gap-space-sm py-space-sm mb-space-sm">
+<div class="flex items-center gap-space-xs text-on-surface-variant bg-surface-container-low px-space-md py-1.5 rounded-full">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">cloud_done</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">تم الحفظ تلقائياً قبل قليل</span>
+</div>
+<!-- Undo / Redo & Color Switcher -->
+<div class="flex items-center gap-1.5">
+<button aria-label="تراجع" class="w-9 h-9 flex items-center justify-center rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[20px]">undo</span>
+</button>
+<button aria-label="إعادة" class="w-9 h-9 flex items-center justify-center rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[20px]">redo</span>
+</button>
+<!-- Palette Popover Trigger -->
+<div class="relative">
+<button aria-label="تغيير لون المذكرة" class="w-9 h-9 flex items-center justify-center rounded-full bg-primary-fixed text-primary hover:bg-primary-fixed-dim transition-transform active:scale-90" id="paletteBtn" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">palette</span>
+</button>
+<!-- Color Picker Swatches Modal -->
+<div class="hidden absolute top-11 start-0 z-30 p-2 bg-surface-container-lowest rounded-2xl shadow-xl flex items-center gap-1.5" id="paletteDropdown">
+<button class="w-6 h-6 rounded-full bg-surface-container-high ring-2 ring-primary transition-transform active:scale-95" data-color="default" type="button"></button>
+<button class="w-6 h-6 rounded-full bg-[#f3e8ff] transition-transform active:scale-95" data-color="lavender" type="button"></button>
+<button class="w-6 h-6 rounded-full bg-[#e6f4ea] transition-transform active:scale-95" data-color="mint" type="button"></button>
+<button class="w-6 h-6 rounded-full bg-[#feefe3] transition-transform active:scale-95" data-color="peach" type="button"></button>
+<button class="w-6 h-6 rounded-full bg-[#e8f0fe] transition-transform active:scale-95" data-color="sky" type="button"></button>
+</div>
+</div>
+</div>
+</div>
+<!-- Mode Selector Pills (Segmented Button MD3) -->
+<div class="p-1 bg-surface-container rounded-full flex items-center mb-space-lg shadow-sm">
+<button class="flex-1 py-2 px-space-md rounded-full font-label-lg text-label-lg flex items-center justify-center gap-space-xs transition-all bg-surface-container-lowest text-primary shadow-sm font-semibold" id="editTab" type="button">
+<span class="material-symbols-outlined text-[19px]">edit_note</span>
+<span>كتابة وماركداون</span>
+</button>
+<button class="flex-1 py-2 px-space-md rounded-full font-label-lg text-label-lg flex items-center justify-center gap-space-xs transition-all text-on-surface-variant hover:text-on-surface" id="previewTab" type="button">
+<span class="material-symbols-outlined text-[19px]">visibility</span>
+<span>معاينة وتنسيق</span>
+</button>
+</div>
+<!-- Main Document Container -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-lg shadow-[0_4px_24px_-4px_rgba(94,53,177,0.06)] flex flex-col gap-space-md transition-all" id="noteDocumentCard">
+<!-- Category & Breadcrumb Selector -->
+<div class="flex items-center justify-between gap-space-sm flex-wrap">
+<div class="inline-flex items-center gap-1.5 bg-surface-container-low px-space-md py-1.5 rounded-full text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-primary">folder_open</span>
+<button class="font-label-md text-label-md hover:text-primary transition-colors" type="button">العمل</button>
+<span class="text-outline-variant font-label-sm text-label-sm">/</span>
+<button class="font-label-md text-label-md font-semibold text-on-surface hover:text-primary flex items-center gap-0.5" type="button">
+<span>مشاريع التطبيقات</span>
+<span class="material-symbols-outlined text-[16px]">arrow_drop_down</span>
+</button>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>تحديث: 11:42 ص</span>
+</div>
+</div>
+<!-- Note Title Input -->
+<div>
+<input class="w-full bg-transparent font-headline-lg-mobile text-headline-lg-mobile text-on-surface placeholder:text-outline-variant focus:outline-none tracking-tight leading-relaxed font-bold" id="noteTitle" placeholder="أدخل عنوان الملاحظة هنا..." type="text" value="خطة تطوير تطبيق الهواتف الذكية 2025"/>
+</div>
+<!-- Interactive Tags Row -->
+<div class="flex items-center flex-wrap gap-1.5 py-1">
+<span class="inline-flex items-center gap-1 bg-primary-fixed text-on-primary-fixed font-label-md text-label-md px-3 py-1 rounded-full shadow-xs">
+<span>#تصميم_واجهات</span>
+<button class="w-4 h-4 rounded-full flex items-center justify-center hover:bg-primary-fixed-dim/50" type="button"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1 bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md px-3 py-1 rounded-full shadow-xs">
+<span>#تطوير</span>
+<button class="w-4 h-4 rounded-full flex items-center justify-center hover:bg-secondary-fixed-dim/50" type="button"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md px-3 py-1 rounded-full shadow-xs">
+<span>#Q1</span>
+<button class="w-4 h-4 rounded-full flex items-center justify-center hover:bg-tertiary-fixed-dim/50" type="button"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<button class="inline-flex items-center gap-1 bg-surface-container text-on-surface-variant font-label-md text-label-md px-3 py-1 rounded-full hover:bg-surface-container-high transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>وسم جديد</span>
+</button>
+</div>
+<!-- Photo Gallery / Attached Media Section -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs font-label-lg text-label-lg text-on-surface">
+<span class="material-symbols-outlined text-[20px] text-primary">photo_library</span>
+<span>معرض الصور والمرفقات (3)</span>
+</div>
+<button class="inline-flex items-center gap-1 bg-surface-container-lowest text-primary font-label-sm text-label-sm px-3 py-1.5 rounded-full shadow-xs hover:bg-primary-fixed transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[16px]">add_photo_alternate</span>
+<span>إضافة صور</span>
+</button>
+</div>
+<!-- Horizontal Thumbnails Strip -->
+<div class="flex items-center gap-space-sm overflow-x-auto py-1 scroll-smooth">
+<!-- Thumbnail 1 -->
+<div class="relative flex-shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-surface-container group shadow-sm">
+<img class="w-full h-full object-cover" data-alt="High-fidelity mobile UI design dashboard mockup displayed on a sleek phone screen with pastel purple accents, soft ambient glow, modern minimalist aesthetics, natural daylight photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSqw-MsN2KIEmHf0vX1WL4f2b48u8Fo9ium2SV78O4Q6AiVjwHWYCNgAWUcyQZA0jdB-95cXPzFVa28ROzM3IEWTr4e9uFyU95dxme82Q9p9UrrI9kakcxSp-3xTHTl8XXMwHgrlToV1ErrsZ9vK9dX9PlH4BnSdei0LydQPrcc_448q8KyWBl3DOawe1m5rm7tihBFvpsYsaKgW9bAj6yuNTc7PA0aIXXYfNttXdcio8iFd3yNoE3"/>
+<button aria-label="حذف الصورة" class="absolute top-1 start-1 w-6 h-6 rounded-full bg-inverse-surface/75 text-inverse-on-surface flex items-center justify-center shadow hover:bg-error hover:text-on-error transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<!-- Thumbnail 2 -->
+<div class="relative flex-shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-surface-container group shadow-sm">
+<img class="w-full h-full object-cover" data-alt="System architecture diagram flowchart with rounded soft violet cards, arrows and database schemas, clean modern flat digital illustration style on light background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVHdRXGIfmwv6ROu8dElneJ-xkZqowfFe7LIhunCwdgzyLpK9oWdDyBL2G0eNBc1i9vkbAa_jFXYkoFq-8OrxWSqmCkyxavItzlDnmF_nkeOppSIrIJXD3U4ja7tqzbOevfO3nNv-w_lR9mad0oKOfojD1dXJgob5ICOr_yi9hhgb-5_t4QL40RiM9bGYTN7iSqp0h0PDDRq0XJtRbAI96npluYyaJ52dSFdnw2Umo97nv0PxJQw6Z"/>
+<button aria-label="حذف الصورة" class="absolute top-1 start-1 w-6 h-6 rounded-full bg-inverse-surface/75 text-inverse-on-surface flex items-center justify-center shadow hover:bg-error hover:text-on-error transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<!-- Thumbnail 3 -->
+<div class="relative flex-shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-surface-container group shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Creative moodboard with color palettes in pastel tones, typography samples, and minimal app wireframes on a designer desk with gentle daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAPxvOcg-aryhiEyCZud2lk3W2uitfuet_yfPoLAbcAmq30TjNU2PlHVxu4vMPMx2M25Z80hLyecD9QnsMOEi44udQse_A6QOaTXq_yChAddwDAZDjihw_eXBksugbf8oL6oVxCEOmxBNvV4Lxb1m7NHJMj_yCuLveeiZJZ0ekfbpMfMBBebEdX6xWqnI3adTfxgS-STzSDoDuliViIlmPVYBaB_Ccy2skh7piQDJln8muryT9DWSq"/>
+<button aria-label="حذف الصورة" class="absolute top-1 start-1 w-6 h-6 rounded-full bg-inverse-surface/75 text-inverse-on-surface flex items-center justify-center shadow hover:bg-error hover:text-on-error transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<!-- Add More Card -->
+<button class="flex-shrink-0 w-24 h-24 rounded-xl bg-surface-container border-2 border-dashed border-outline-variant flex flex-col items-center justify-center gap-1 text-on-surface-variant hover:text-primary hover:bg-surface-container-high transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[24px]">add</span>
+<span class="font-label-sm text-label-sm">رفع المزيد</span>
+</button>
+</div>
+</div>
+<!-- Active View Area: Markdown Code Editor Mode -->
+<div class="flex flex-col gap-space-sm" id="editorModeContainer">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm px-1">
+<span>محرر Markdown المباشر</span>
+<span>UTF-8 • RTL</span>
+</div>
+<!-- Styled Code-like Editor Textarea Wrapper -->
+<div class="relative rounded-2xl bg-surface-container-low p-space-md">
+<textarea class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline-variant focus:outline-none resize-none leading-relaxed tracking-normal font-mono" id="markdownInput" placeholder="اكتب ملاحظتك باستخدام وسوم Markdown..." rows="12"># خطة إطلاق النسخة الأولى (MVP)
+
+أبرز المراحل المتبقية لإنجاز مشروع تطبيق التدوين الذكي قبل نهاية الربع الأول:
+
+### قائمة التحقق من المهام:
+- [x] إعداد وتوثيق نموذج واجهات المستخدم الأولية (Figma)
+- [ ] مراجعة تجربة الاستخدام الميدانية مع فريق التصميم
+- [ ] اعتماد هيكلية قاعدة البيانات السحابية والتشفير المحلي
+- [ ] برمجة شريط الأدوات العائم وسرعة استجابة المحرر
+
+&gt; "البساطة هي غاية الإتقان، والتدوين الواضح يصنع أفكاراً عظيمة."
+
+يمكن الاطلاع على دراسة متطلبات النظام عبر [رابط التوثيق التقني](https://notecraft.io/docs).</textarea>
+</div>
+</div>
+<!-- Preview Mode Container (Toggled via JS) -->
+<div class="hidden flex flex-col gap-space-md" id="previewModeContainer">
+<div class="p-space-md rounded-2xl bg-surface-container-low flex flex-col gap-space-sm">
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">خطة إطلاق النسخة الأولى (MVP)</h2>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+          أبرز المراحل المتبقية لإنجاز مشروع تطبيق التدوين الذكي قبل نهاية الربع الأول:
+        </p>
+<!-- Formatted Interactive Checklist Preview -->
+<div class="flex flex-col gap-2 my-1">
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<span class="w-6 h-6 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shadow-xs">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+<span class="font-body-md text-body-md line-through text-on-surface-variant">إعداد وتوثيق نموذج واجهات المستخدم الأولية (Figma)</span>
+</label>
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<span class="w-6 h-6 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary shadow-xs">
+</span>
+<span class="font-body-md text-body-md text-on-surface">مراجعة تجربة الاستخدام الميدانية مع فريق التصميم</span>
+</label>
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<span class="w-6 h-6 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary shadow-xs">
+</span>
+<span class="font-body-md text-body-md text-on-surface">اعتماد هيكلية قاعدة البيانات السحابية والتشفير المحلي</span>
+</label>
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<span class="w-6 h-6 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary shadow-xs">
+</span>
+<span class="font-body-md text-body-md text-on-surface">برمجة شريط الأدوات العائم وسرعة استجابة المحرر</span>
+</label>
+</div>
+<!-- Blockquote Preview -->
+<blockquote class="bg-primary-fixed/30 border-r-4 border-primary p-space-md rounded-2xl text-on-surface font-body-md text-body-md italic my-2">
+          "البساطة هي غاية الإتقان، والتدوين الواضح يصنع أفكاراً عظيمة."
+        </blockquote>
+<p class="font-body-md text-body-md text-on-surface">
+          يمكن الاطلاع على دراسة متطلبات النظام عبر <a class="text-secondary font-semibold underline underline-offset-4" href="#">رابط التوثيق التقني</a>.
+        </p>
+</div>
+</div>
+</div>
+<!-- Sticky Floating Markdown Toolbar Above Bottom System Area -->
+<div class="fixed bottom-3 inset-x-gutter z-40 max-w-lg mx-auto">
+<div class="bg-surface-container-lowest/90 backdrop-blur-xl rounded-full shadow-[0_10px_28px_-2px_rgba(94,53,177,0.18)] p-1.5 flex items-center justify-between gap-1 overflow-x-auto scrollbar-none">
+<!-- H1 Header Insertion -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95 font-bold font-label-lg" data-syntax="# " title="عنوان رئيسي" type="button">
+        H1
+      </button>
+<!-- Bold Insertion -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95 font-bold" data-syntax="**" title="خط عريض" type="button">
+<span class="material-symbols-outlined text-[20px]">format_bold</span>
+</button>
+<!-- Italic Insertion -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95" data-syntax="*" title="خط مائل" type="button">
+<span class="material-symbols-outlined text-[20px]">format_italic</span>
+</button>
+<!-- Checkbox / Task Item Insertion -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-fixed-dim transition-colors active:scale-95" data-syntax="- [ ] " title="صندوق مهمة" type="button">
+<span class="material-symbols-outlined text-[20px]">check_box</span>
+</button>
+<!-- Bullet List Insertion -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95" data-syntax="- " title="قائمة نقطية" type="button">
+<span class="material-symbols-outlined text-[20px]">format_list_bulleted</span>
+</button>
+<!-- Link Insertion -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95" data-syntax="[عنوان الرابط](url)" title="رابط تشعبي" type="button">
+<span class="material-symbols-outlined text-[20px]">link</span>
+</button>
+<!-- Code Snippet -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95" data-syntax="`كود`" title="كتلة كود" type="button">
+<span class="material-symbols-outlined text-[20px]">code</span>
+</button>
+<!-- Image Tag -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95" data-syntax="![وصف الصورة](url)" title="صورة" type="button">
+<span class="material-symbols-outlined text-[20px]">image</span>
+</button>
+<!-- Quote -->
+<button class="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container hover:text-primary transition-colors active:scale-95" data-syntax="&gt; " title="اقتباس" type="button">
+<span class="material-symbols-outlined text-[20px]">format_quote</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // UI Interactive Toggle and Palette Behavior
+  const editTab = document.getElementById('editTab');
+  const previewTab = document.getElementById('previewTab');
+  const editorModeContainer = document.getElementById('editorModeContainer');
+  const previewModeContainer = document.getElementById('previewModeContainer');
+  const markdownInput = document.getElementById('markdownInput');
+  const paletteBtn = document.getElementById('paletteBtn');
+  const paletteDropdown = document.getElementById('paletteDropdown');
+  const noteDocumentCard = document.getElementById('noteDocumentCard');
+
+  // Tab switching
+  editTab?.addEventListener('click', () => {
+    editTab.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm', 'font-semibold');
+    editTab.classList.remove('text-on-surface-variant');
+    previewTab.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm', 'font-semibold');
+    previewTab.classList.add('text-on-surface-variant');
+
+    editorModeContainer.classList.remove('hidden');
+    previewModeContainer.classList.add('hidden');
+  });
+
+  previewTab?.addEventListener('click', () => {
+    previewTab.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm', 'font-semibold');
+    previewTab.classList.remove('text-on-surface-variant');
+    editTab.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm', 'font-semibold');
+    editTab.classList.add('text-on-surface-variant');
+
+    previewModeContainer.classList.remove('hidden');
+    editorModeContainer.classList.add('hidden');
+  });
+
+  // Palette Popover Toggle
+  paletteBtn?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    paletteDropdown?.classList.toggle('hidden');
+  });
+
+  document.addEventListener('click', () => {
+    if (!paletteDropdown?.classList.contains('hidden')) {
+      paletteDropdown?.classList.add('hidden');
+    }
+  });
+
+  // Dynamic Theme/Color Switcher for the Note Paper
+  const colorMap = {
+    default: 'bg-surface-container-lowest',
+    lavender: 'bg-[#fbf7ff]',
+    mint: 'bg-[#f3faf6]',
+    peach: 'bg-[#fff8f2]',
+    sky: 'bg-[#f4f7fe]'
+  };
+
+  paletteDropdown?.querySelectorAll('button[data-color]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const chosen = btn.getAttribute('data-color');
+      Object.values(colorMap).forEach(cls => noteDocumentCard?.classList.remove(cls));
+      if (colorMap[chosen]) {
+        noteDocumentCard?.classList.add(colorMap[chosen]);
+      }
+      paletteDropdown?.classList.add('hidden');
+    });
+  });
+
+  // Quick insertion helpers for toolbar
+  document.querySelectorAll('button[data-syntax]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (!markdownInput) return;
+      const syntax = btn.getAttribute('data-syntax');
+      const start = markdownInput.selectionStart;
+      const end = markdownInput.selectionEnd;
+      const text = markdownInput.value;
+      
+      markdownInput.value = text.substring(0, start) + syntax + text.substring(end);
+      markdownInput.focus();
+      markdownInput.setSelectionRange(start + syntax.length, start + syntax.length);
+    });
+  });
+</script></main></body></html>
